@@ -10,7 +10,7 @@ export default function Sidebar() {
 
     const toggleMenu = (index) => {
         setIsOpen((prevMenu) => (prevMenu === index ? null : index));
-        console.log(`${index} is open!`)
+        // console.log(`${index} is open!`)
     }
 
     return (

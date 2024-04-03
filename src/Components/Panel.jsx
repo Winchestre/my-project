@@ -7,7 +7,7 @@ export default function Panel() {
 
     const toggleTooltip = (index) => {
         setToolTipVisible((prevItem) => (prevItem === index ? !toolTipVisible : index));
-        console.log(`${index} hovered!`)
+        // console.log(`${index} hovered!`)
     }
     return (
         <div className="w-full mt-10 relative">
